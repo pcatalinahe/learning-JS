@@ -14,3 +14,14 @@ const stringToNumber = function(str){
     // put your code here
     return parseInt(str);
   }
+
+  function doSomethingLater(callback) {
+    const fixedValue = "Example"; // Focuses on passing the function
+    return callback(fixedValue);
+}
+
+function printMessage(message) {
+    return `Message: ${message}`;
+}
+
+console.log(doSomethingLater(printMessage)); // Outputs: Message: Example
