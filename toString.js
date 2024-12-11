@@ -12,18 +12,3 @@ const stringToNumber = function (str) {
   // put your code here
   return parseInt(str);
 };
-
-/*
-
-//study for callback (unrelated)
-function doSomethingLater(callback) {
-  const fixedValue = "Example"; // Focuses on passing the function
-  return callback(fixedValue);
-}
-
-function printMessage(message) {
-  return `Message: ${message}`;
-}
-
-console.log(doSomethingLater(printMessage)); // Outputs: Message: Example
-*/
