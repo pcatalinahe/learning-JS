@@ -8,20 +8,22 @@
 // "1405" --> 1405
 // "-7" --> -7
 
+const stringToNumber = function (str) {
+  // put your code here
+  return parseInt(str);
+};
 
+/*
 
-const stringToNumber = function(str){
-    // put your code here
-    return parseInt(str);
-  }
-
-  function doSomethingLater(callback) {
-    const fixedValue = "Example"; // Focuses on passing the function
-    return callback(fixedValue);
+//study for callback (unrelated)
+function doSomethingLater(callback) {
+  const fixedValue = "Example"; // Focuses on passing the function
+  return callback(fixedValue);
 }
 
 function printMessage(message) {
-    return `Message: ${message}`;
+  return `Message: ${message}`;
 }
 
 console.log(doSomethingLater(printMessage)); // Outputs: Message: Example
+*/
